@@ -2,7 +2,7 @@
   <div class = "bg-black text-white">
     <header class="sticky top-0 left-0 w-full bg-black text-white">
         <nav class="flex p-4 items-center justify-between w-10/12 block m-auto">
-            <h3 class="font-bold text-2xl"><a href="index.html">Raka</a></h3>
+            <h3 class="font-bold text-2xl"><NuxtLink to="/">Raka</NuxtLink></h3>
             <p><a href="#https://codepen.io/Raka_ramadhan/pen/gOGRRaw" target="_blank"><i class="fa-brands fa-codepen"></i> Codepen</a></p>
         </nav>
     </header>
@@ -54,13 +54,13 @@
             <h3 class="font-bold text-2xl my-8">Tutorial</h3>
             <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div class="border-2 border-slate-800 p-2 rounded">
-                    <a href="tutorial.html">
+                  <NuxtLink to="/tutorial">Go to tutorial
                         <div class="">
                             <h3 class="font-bold my-2">Web Portfolio Sederhana</h3>
                             <img src="~/assets/images/tutorial-1.png" alt="" class="w-full h-[200px]">
                             <p class="text-sm my-2"><em>Dibuat Tanggal 10 Mei 2023</em></p>
                         </div>
-                    </a>
+                    </NuxtLink>
                 </div>
             </div>
         </div>
