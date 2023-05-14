@@ -1,5 +1,72 @@
 <template>
-  <div>
-    <NuxtWelcome />
+  <div class = "bg-black text-white">
+    <header class="sticky top-0 left-0 w-full bg-black text-white">
+        <nav class="flex p-4 items-center justify-between w-10/12 block m-auto">
+            <h3 class="font-bold text-2xl"><a href="index.html">Raka</a></h3>
+            <p><a href="#https://codepen.io/Raka_ramadhan/pen/gOGRRaw" target="_blank"><i class="fa-brands fa-codepen"></i> Codepen</a></p>
+        </nav>
+    </header>
+    <main class="w-10/12 m-auto block p-4">
+        <div class="hero flex my-12 gap-2 lg:flex-row flex-col">
+            <div class="">
+                <h2 class="text-4xl font-bold">Membuat website dengan mudah</h2>
+                <p class="text-white/[0.9] text-sm my-4">Dalam tutorial ini, kamu akan diajarkan cara membuat website
+                    dengan mudah dan cepat tanpa harus memiliki pengalaman atau pengetahuan coding yang mendalam. Kamu
+                    akan belajar bagaimana membuat tampilan website yang menarik dan memikat serta membuat website
+                    interaktif untuk para penggunanya.
+                </p>
+                <a href="#mulai" class="bg-sky-500 p-2 rounded block w-fit my-4 px-4 text-sm">Pelajari Lebih Lanjut</a>
+            </div>
+            <img src="https://img1.wsimg.com/cdn/Image/All/All/1/en-US/dd0b8505-0e30-427f-8984-3a1bdf50fa06/gd-websitebuilder-marquee-mobile2x.jpg"
+                alt="" class="rounded 2xl:w-full lg:w-[500px]">
+        </div>
+        <div class="" id="mulai">
+            <h3 class="font-bold text-2xl text-center my-8">Pembelajaran</h3>
+            <div class="grid grid-rows-1 grid-cols-1 lg:grid-cols-2 gap-4">
+                <div class="flex gap-2 w-full">
+                    <div
+                        class="bg-white/[0.1] rounded flex items-center justify-center flex-col p-2 text-center hover:shadow-lg hover:shadow-white/[0.2] shadow-white transition duration-300 ease-in-out w-full">
+                        <i class="font-bold text-4xl my-8 fa-solid fa-code"></i>
+                        <h4 class="font-bold text-xl my-2">Struktur</h4>
+                    </div>
+                    <div
+                        class="bg-white/[0.1] rounded flex items-center justify-center flex-col p-2 text-center hover:shadow-lg hover:shadow-white/[0.2] shadow-white transition duration-300 ease-in-out w-full">
+                        <i class="font-bold text-4xl my-8 fa-solid fa-palette"></i>
+                        <h4 class="font-bold text-xl my-2">Design</h4>
+                    </div>
+                    <div
+                        class="bg-white/[0.1] rounded flex items-center justify-center flex-col p-2 text-center hover:shadow-lg hover:shadow-white/[0.2] shadow-white transition duration-300 ease-in-out w-full">
+                        <i class="font-bold text-4xl my-8 fa-solid fa-code"></i>
+                        <h4 class="font-bold text-xl my-2">Fungsi</h4>
+                    </div>
+                </div>
+                <div class="">
+                    <p class="text-sm leading-relaxed lg:mt-0 mt-4">Kita akan belajar bagaimana membuat sebuah struktur
+                        website yang baik dan benar, sehingga website kita mudah dipahami oleh pengguna. <br><br>Selain
+                        itu, kita juga akan mempelajari bagaimana membuat tampilan website yang menarik dan profesional
+                        menggunakan teknologi-teknologi terkini, sehingga website kita akan terlihat lebih modern dan
+                        elegan. <br><br>Selain itu, kita juga akan belajar cara membuat website menjadi interaktif dan
+                        responsif agar pengguna merasa lebih nyaman dan mudah dalam mengaksesnya.</p>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <h3 class="font-bold text-2xl my-8">Tutorial</h3>
+            <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div class="border-2 border-slate-800 p-2 rounded">
+                    <a href="tutorial.html">
+                        <div class="">
+                            <h3 class="font-bold my-2">Web Portfolio Sederhana</h3>
+                            <img src="~/assets/images/tutorial-1.png" alt="" class="w-full h-[200px]">
+                            <p class="text-sm my-2"><em>Dibuat Tanggal 10 Mei 2023</em></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-black text-center p-8">
+        <p><a href="https://bit.ly/raka-rmdn-portfolio" target="_blank">All right reserved @Raka_Ramadhan</a></p>
+    </footer>
   </div>
 </template>
