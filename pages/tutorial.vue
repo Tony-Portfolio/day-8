@@ -1,5 +1,5 @@
 <template>
-<div class = "bg-black text-white">
+<div class = "bg-black text-white w-full">
 <header class="sticky top-0 left-0 w-full bg-black text-white">
         <nav class="flex p-4 items-center justify-between w-10/12 block m-auto">
             <h3 class="font-bold"><NuxtLink to="/">Raka</NuxtLink></h3>
