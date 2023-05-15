@@ -1,12 +1,11 @@
 <template>
-<div class = "bg-black text-white w-full">
-<header class="sticky top-0 left-0 w-full bg-black text-white">
-        <nav class="flex p-4 items-center justify-between w-10/12 block m-auto">
-            <h3 class="font-bold"><NuxtLink to="/">Raka</NuxtLink></h3>
-            <p><a href="#https://codepen.io/Raka_ramadhan/pen/gOGRRaw" target="_blank"><i
-                        class="fa-brands fa-codepen"></i> Codepen</a></p>
-        </nav>
-    </header>
+    <div class = "bg-black text-white">
+    <NuxtLayout :name="layouts.header">
+            <nav class="flex p-4 items-center justify-between w-10/12 block m-auto">
+                <h3 class="font-bold"><NuxtLink to="/">Raka</NuxtLink></h3>
+                <p><a href="#https://codepen.io/Raka_ramadhan/pen/gOGRRaw" target="_blank"><i class="fa-brands fa-codepen"></i> Codepen</a></p>
+            </nav>
+        </NuxtLayout>
     <main class="w-10/12 m-auto block p-4">
         <div class="flex items-center justify-center gap-8 w-full mb-24">
             <div class="text-center flex items-center justify-center flex-col">
@@ -487,6 +486,12 @@
 </template>
 <script>
 export default {
-    name: 'tutorial'
+    data() {
+        return {
+            layouts: {
+                header: "header"
+            }
+        }
+    }
 }
 </script>

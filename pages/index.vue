@@ -1,11 +1,11 @@
 <template>
   <div class = "bg-black text-white">
-    <header class="sticky top-0 left-0 w-full bg-black text-white">
-        <nav class="flex p-4 items-center justify-between w-10/12 block m-auto">
-            <h3 class="font-bold text-2xl"><NuxtLink to="/">Raka</NuxtLink></h3>
-            <p><a href="#https://codepen.io/Raka_ramadhan/pen/gOGRRaw" target="_blank"><i class="fa-brands fa-codepen"></i> Codepen</a></p>
-        </nav>
-    </header>
+        <NuxtLayout :name="layouts.header">
+            <nav class="flex p-4 items-center justify-between w-10/12 block m-auto">
+                <h3 class="font-bold"><NuxtLink to="/">Raka</NuxtLink></h3>
+                <p><a href="#https://codepen.io/Raka_ramadhan/pen/gOGRRaw" target="_blank"><i class="fa-brands fa-codepen"></i> Codepen</a></p>
+            </nav>
+        </NuxtLayout>
     <main class="w-10/12 m-auto block p-4">
         <div class="hero flex my-12 gap-2 lg:flex-row flex-col">
             <div class="">
@@ -70,3 +70,14 @@
     </footer>
   </div>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            layouts: {
+                header: "header"
+            }
+        }
+    }
+}
+</script>
