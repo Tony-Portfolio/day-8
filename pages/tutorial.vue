@@ -480,16 +480,18 @@
         &lt;/html&gt;
 '></iframe>
     </main>
-    <footer class="bg-black text-center p-8">
+    <NuxtLayout :name="layouts.footer">
         <p><a href="https://bit.ly/raka-rmdn-portfolio" target="_blank">All right reserved @Raka_Ramadhan</a></p>
-    </footer></div>
+    </NuxtLayout>
+</div>
 </template>
 <script>
-export default {
+export default  {
     data() {
         return {
             layouts: {
-                header: "header"
+                header: "header",
+                footer: "footer"
             }
         }
     }
