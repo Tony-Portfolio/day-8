@@ -15,5 +15,6 @@ const props = defineProps({
     title: String,
     image: String,
     link: String,
+    date: String,
 })</script>
   

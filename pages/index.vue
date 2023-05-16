@@ -56,8 +56,10 @@
             <div class="">
                 <h3 class="font-bold text-2xl my-8">Tutorial</h3>
                 <div class = "grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
-                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial"></Card>
-                    <Card title="Reponsive Design" image="tutorial-2.png" link = "#"></Card>
+                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial" date = "12 Januari 2002"></Card>
+                    <Card title="Reponsive Design" image="tutorial-2.png" link = "#" date = "20 Januari 2002"></Card>
+                    <Card title="Designing A Website" image="tutorial-3.jpg" link = "#" date = "14 Februari 2002"></Card>
+                    <Card title="Interactive With Js" image="tutorial-4.jpg" link = "#" date = "28 Februari 2002"></Card>
                 </div>
             </div>
         </main>
