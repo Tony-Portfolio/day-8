@@ -6,7 +6,9 @@
         <main class="w-10/12 mx-auto my-4">
             <section id="about" class="w-full h-fit">
                 <div class="lg:h-[400px] h-auto p-8 rounded"
-                    style="background-image: linear-gradient(to right, #6d4dff, transparent), url('https://imageio.forbes.com/specials-images/imageserve/60e05ab2396be666929735e5/0x0.jpg?format=jpg&width=1200');">
+                    style="background-image: linear-gradient(to right, #6d4dff, transparent), url('https://imageio.forbes.com/specials-images/imageserve/60e05ab2396be666929735e5/0x0.jpg?format=jpg&width=1200');
+                    background-repeat: no-repeat;
+                    background-size: cover;">
                     <h3 class="text-4xl font-bold text-white">Coster : Code Master</h3>
                     <p class="mt-8 w-8/12 text-white sm:text-base text-sm ">Kami adalah sebuah perusahaan yang berfokus pada menyediakan
                         tutorial ngoding secara

@@ -19,7 +19,7 @@
                 <li><a href="https://codepen.io/Raka_ramadhan" target="_blank"><i class="fa-brands fa-codepen"></i>
                         Codepen</a></li>
             </ul>
-            <p @click.stop="showNav = true" class="block md:hidden w-fit"><img src="/icon/bar.png" alt="bars" class = "w-[20px]">
+            <p @click.stop="showNav = true" class="block md:hidden w-fit"><img src="/icon/bar.png" alt="bars" class = "w-[15px]">
             </p>
         </nav>
         <!-- <slot /> -->
