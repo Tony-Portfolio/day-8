@@ -23,7 +23,7 @@
             </nav>
         </NuxtLayout>
         <main class="w-10/12 mx-auto my-4">
-            <NuxtLink to="/class/list" class="my-8 text-[#6d4dff] block w-fit"><i class="fa-regular fa-chevron-left"></i>
+            <NuxtLink to="/class/list" class="my-8 text-[#6d4dff] block w-fit">
                 Kembali ke tutorial</NuxtLink>
             <section>
                 <div class="flex items-start justify-start gap-4 flex-col md:flex-row">

@@ -24,10 +24,10 @@
         </NuxtLayout>
         <main class="w-10/12 mx-auto my-4">
             <section id="about" class="w-full h-fit">
-                <div class="md:h-[400px] h-auto p-8 rounded"
+                <div class="lg:h-[400px] h-auto p-8 rounded"
                     style="background-image: linear-gradient(to right, #6d4dff, transparent), url('https://imageio.forbes.com/specials-images/imageserve/60e05ab2396be666929735e5/0x0.jpg?format=jpg&width=1200');">
                     <h3 class="text-4xl font-bold text-white">Coster : Code Master</h3>
-                    <p class="mt-8 w-8/12 text-white text-md">Kami adalah sebuah perusahaan yang berfokus pada menyediakan
+                    <p class="mt-8 w-8/12 text-white sm:text-base text-sm ">Kami adalah sebuah perusahaan yang berfokus pada menyediakan
                         tutorial ngoding secara
                         online. Dengan pengalaman dan pengetahuan yang luas dalam bidang pengembangan web, kami bertujuan
                         untuk membantu para pemula maupun yang sudah berpengalaman dalam mempelajari dan menguasai
@@ -37,7 +37,7 @@
                         seperti HTML, CSS, JavaScript, dan PHP. Kami menyediakan tutorial yang terstruktur dan mudah
                         diikuti, dengan penjelasan yang jelas dan contoh kode yang relevan.
                     </p>
-                    <NuxtLink to="#" class="bg-white p-2 rounded px-4 block w-fit text-[#6d4dff] my-4">Telusuri Kelas
+                    <NuxtLink to="/class/list" class="bg-white p-2 rounded px-4 block w-fit text-[#6d4dff] my-4">Telusuri Kelas
                     </NuxtLink>
                 </div>
             </section>
@@ -47,8 +47,8 @@
                     <div
                         class="bg-white p-4 shadow-lg rounded hover:bg-[#542eff] hover:text-white transition duration-500 ease-in-out flex flex-col h-full hover:shadow-2xl transition duration-500 ease-in-out hover:shadow-[rgba(109,77,255,0.8)]">
                         <div class="flex gap-4">
-                            <div class="w-[80px] h-[80px] rounded bg-white flex items-center justify-center">
-                                <i class="fa-brands fa-html5 text-[#f06529] text-6xl"></i>
+                            <div class="w-[80px] h-[80px] rounded bg-white flex items-center justify-center p-2">
+                                <img src="/icon/html.png" alt="">
                             </div>
                             <div class="">
                                 <h4 class="font-bold text-4xl">HTML</h4>
@@ -68,8 +68,8 @@
                     <div
                         class="bg-white p-4 shadow-lg rounded hover:bg-[#542eff] hover:text-white transition duration-500 ease-in-out flex flex-col h-full hover:shadow-2xl transition duration-500 ease-in-out hover:shadow-[rgba(109,77,255,0.8)]">
                         <div class="flex gap-4">
-                            <div class="xl w-[80px] h-[80px] rounded bg-white flex items-center justify-center">
-                                <i class="fa-brands fa-css3-alt text-[#2965f1] text-6xl"></i>
+                            <div class="xl w-[80px] h-[80px] rounded bg-white flex items-center justify-center p-2">
+                                <img src="/icon/css.png" alt="">
                             </div>
                             <div class="">
                                 <h4 class="font-bold text-4xl">CSS</h4>
@@ -89,8 +89,8 @@
                     <div
                         class="bg-white p-4 shadow-lg rounded hover:bg-[#542eff] hover:text-white transition duration-500 ease-in-out flex flex-col h-full hover:shadow-2xl transition duration-500 ease-in-out hover:shadow-[rgba(109,77,255,0.8)]">
                         <div class="flex gap-4">
-                            <div class="6xl w-[80px] h-[80px] rounded bg-white flex items-center justify-center">
-                                <i class="fa-brands fa-square-js text-[#F0DB4F] text-6xl"></i>
+                            <div class="6xl w-[80px] h-[80px] rounded bg-white flex items-center justify-center p-2">
+                                <img src="/icon/javascript.png" alt="">
                             </div>
                             <div class="">
                                 <h4 class="font-bold text-4xl">Javascript</h4>
@@ -110,8 +110,8 @@
                     <div
                         class="bg-white p-4 shadow-lg rounded hover:bg-[#542eff] hover:text-white transition duration-500 ease-in-out flex flex-col h-full hover:shadow-2xl transition duration-500 ease-in-out hover:shadow-[rgba(109,77,255,0.8)]">
                         <div class="flex gap-4">
-                            <div class="6xl w-[80px] h-[80px] rounded bg-white flex items-center justify-center">
-                                <i class="fa-brands fa-php text-[#484C89] text-6xl"></i>
+                            <div class="6xl w-[80px] h-[80px] rounded bg-white flex items-center justify-center p-2">
+                                <img src="/icon/php.png" alt="">
                             </div>
                             <div class="">
                                 <h4 class="font-bold text-4xl">Php</h4>
