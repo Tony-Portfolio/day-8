@@ -1,20 +1,19 @@
 <template>
-    <div class="border-2 border-slate-800 p-2 rounded">
-      <NuxtLink :to="'/' + link">
-        <div>
-          <h3 class="font-bold my-2">{{ title }}</h3>
-          <img :src="'/images/' + image" alt="" class="w-full h-[200px] object-cover object-top">
-          <p class="text-sm my-2"><em>{{ date }}</em></p>
-        </div>
-      </NuxtLink>
-    </div>
-  </template>
+  <div
+    class="bg-white p-4 shadow-lg rounded flex flex-col h-full hover:shadow-2xl hover:bottom-[10px] bottom-0 transition duration-500 ease-in-out hover:shadow-[rgba(109,77,255,0.6)] relative"
+    style="transition:bottom 0.5s, box-shadow 0.5s;">
+    <NuxtLink :to = "'/' + link">
+      <img :src="'images/' + image" alt="" class="h-[250px] object-cover object-top">
+    </NuxtLink>
+  </div>
+</template>
   
-  <script setup>
+<script setup>
 const props = defineProps({
-    title: String,
-    image: String,
-    link: String,
-    date: String,
-})</script>
+  title: String,
+  image: String,
+  link: String,
+  date: String,
+})
+</script>
   

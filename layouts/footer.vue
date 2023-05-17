@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-black text-center p-8">
+    <footer class="bg-white text-center p-4">
         <slot />
     </footer>
 </template>

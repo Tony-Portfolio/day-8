@@ -3,29 +3,34 @@
         <NuxtLayout :name="layouts.header">
             <nav class="font-bold flex items-center justify-between w-10/12">
                 <div class="">
-                    <h2><NuxtLink to="/">Coster</NuxtLink></h2>
+                    <h2>
+                        <NuxtLink to="/">Coster</NuxtLink>
+                    </h2>
                 </div>
                 <ul class="flex items-center justify-evenly gap-8">
                     <li><NuxtLink to="/">Beranda</NuxtLink></li>
-                    <li><NuxtLink to="/about">Tentang Kami</NuxtLink></li>
+                    <li>
+                        <NuxtLink to="/about">Tentang Kami</NuxtLink>
+                    </li>
                     <li><NuxtLink to="/class">Tutorial</NuxtLink></li>
                     <li><a href="#"><i class="fa-brands fa-codepen"></i> Codepen</a></li>
                 </ul>
             </nav>
         </NuxtLayout>
-        <main class="w-10/12 mx-auto my-8">
-            <section id="hero" class="flex justify-between gap-8 flex-col lg:flex-row">
-                <div class="">
-                    <h3 class="text-4xl font-bold">Berkarya dengan Kode, Menginspirasi Ide dan Solusi Inovatif</h3>
-                    <p class="text-base leading-relaxed my-4">Gali potensi kreativitasmu dengan koding, temukan inspirasi
-                        untuk ide-ide baru, dan temukan solusi inovatif melalui tutorial koding yang menyenangkan.</p>
-                    <div class="flex items-center gap-2">
-                        <a href="#" class="bg-[#4e29f5] text-white p-2 rounded px-4 block w-fit">Mulai Belajar</a>
-                        <a href="#" class="bg-black/[0.1] text-black p-2 rounded px-4 block w-fit">Telusuri Kelas</a>
-                    </div>
+        <main class="w-10/12 mx-auto my-4">
+            <section id="about" class = "w-full h-fit">
+                <div class="h-[400px] p-8 rounded" style="background-image: linear-gradient(to right, #6d4dff, transparent), url('https://imageio.forbes.com/specials-images/imageserve/60e05ab2396be666929735e5/0x0.jpg?format=jpg&width=1200');">
+                    <h3 class="text-4xl font-bold text-white">Coster : Code Master</h3>
+                    <p class="mt-8 w-8/12 text-white text-md">Kami adalah sebuah perusahaan yang berfokus pada menyediakan tutorial ngoding secara
+                        online. Dengan pengalaman dan pengetahuan yang luas dalam bidang pengembangan web, kami bertujuan
+                        untuk membantu para pemula maupun yang sudah berpengalaman dalam mempelajari dan menguasai
+                        keterampilan pemrograman.
+                        <br><br>
+                        Tim kami terdiri dari para profesional di bidang pengembangan web yang ahli dalam bahasa pemrograman
+                        seperti HTML, CSS, JavaScript, dan PHP. Kami menyediakan tutorial yang terstruktur dan mudah
+                        diikuti, dengan penjelasan yang jelas dan contoh kode yang relevan.</p>
+                    <NuxtLink to="#" class = "bg-white p-2 rounded px-4 block w-fit text-[#6d4dff] my-4">Telusuri Kelas</NuxtLink>
                 </div>
-                <img src="https://img1.wsimg.com/cdn/Image/All/All/1/en-US/dd0b8505-0e30-427f-8984-3a1bdf50fa06/gd-websitebuilder-marquee-mobile2x.jpg"
-                    alt="" class="rounded 2xl:w-full lg:w-[500px]">
             </section>
             <section id="class" class="">
                 <h3 class="font-bold text-2xl py-8">Pembelajaran</h3>
@@ -109,16 +114,6 @@
                             <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section id="class" class="">
-                <h3 class="font-bold text-2xl py-8">Tutorial</h3>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial" date="12 Januari 2002">
-                    </Card>
-                    <Card title="Reponsive Design" image="tutorial-2.png" link="#" date="20 Januari 2002"></Card>
-                    <Card title="Designing A Website" image="tutorial-3.jpg" link="#" date="14 Februari 2002"></Card>
-                    <Card title="Interactive With Js" image="tutorial-4.jpg" link="#" date="28 Februari 2002"></Card>
                 </div>
             </section>
         </main>

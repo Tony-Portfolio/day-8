@@ -1,5 +1,5 @@
 <template>
-    <header class="sticky top-0 left-0 w-full bg-black text-white">
+    <header class="w-12/12 mx-auto py-4 sticky top-0 left-0 bg-white backdrop-blur-[1px] flex items-center justify-center">
         <slot />
     </header>
 </template>
