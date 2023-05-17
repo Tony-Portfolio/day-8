@@ -15,12 +15,6 @@ export default {
         },
         {
           href:
-            "https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css",
-          rel: "stylesheet",
-          type: "text/css"
-        },
-        {
-          href:
             "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css",
           rel: "stylesheet"
         }
@@ -30,6 +24,11 @@ export default {
           src:
             "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
         },
+        {
+          src:"https://kit.fontawesome.com/5e4963521e.js",
+          crossorigin: "anonymous"
+        },
+        
         { innerHTML: "hljs.highlightAll();" }
       ],
     }    
