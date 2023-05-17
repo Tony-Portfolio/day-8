@@ -8,28 +8,37 @@
                     </h2>
                 </div>
                 <ul class="flex items-center justify-evenly gap-8">
-                    <li><NuxtLink to="/">Beranda</NuxtLink></li>
+                    <li>
+                        <NuxtLink to="/">Beranda</NuxtLink>
+                    </li>
                     <li>
                         <NuxtLink to="/about">Tentang Kami</NuxtLink>
                     </li>
-                    <li><NuxtLink to="/class">Tutorial</NuxtLink></li>
-                    <li><a href="#"><i class="fa-brands fa-codepen"></i> Codepen</a></li>
+                    <li>
+                        <NuxtLink to="/class/list">Kelas</NuxtLink>
+                    </li>
+                    <li><a href="https://codepen.io/Raka_ramadhan" target="_blank"><i class="fa-brands fa-codepen"></i>
+                            Codepen</a></li>
                 </ul>
             </nav>
         </NuxtLayout>
         <main class="w-10/12 mx-auto my-4">
-            <section id="about" class = "w-full h-fit">
-                <div class="h-[400px] p-8 rounded" style="background-image: linear-gradient(to right, #6d4dff, transparent), url('https://imageio.forbes.com/specials-images/imageserve/60e05ab2396be666929735e5/0x0.jpg?format=jpg&width=1200');">
+            <section id="about" class="w-full h-fit">
+                <div class="md:h-[400px] h-auto p-8 rounded"
+                    style="background-image: linear-gradient(to right, #6d4dff, transparent), url('https://imageio.forbes.com/specials-images/imageserve/60e05ab2396be666929735e5/0x0.jpg?format=jpg&width=1200');">
                     <h3 class="text-4xl font-bold text-white">Coster : Code Master</h3>
-                    <p class="mt-8 w-8/12 text-white text-md">Kami adalah sebuah perusahaan yang berfokus pada menyediakan tutorial ngoding secara
+                    <p class="mt-8 w-8/12 text-white text-md">Kami adalah sebuah perusahaan yang berfokus pada menyediakan
+                        tutorial ngoding secara
                         online. Dengan pengalaman dan pengetahuan yang luas dalam bidang pengembangan web, kami bertujuan
                         untuk membantu para pemula maupun yang sudah berpengalaman dalam mempelajari dan menguasai
                         keterampilan pemrograman.
                         <br><br>
                         Tim kami terdiri dari para profesional di bidang pengembangan web yang ahli dalam bahasa pemrograman
                         seperti HTML, CSS, JavaScript, dan PHP. Kami menyediakan tutorial yang terstruktur dan mudah
-                        diikuti, dengan penjelasan yang jelas dan contoh kode yang relevan.</p>
-                    <NuxtLink to="#" class = "bg-white p-2 rounded px-4 block w-fit text-[#6d4dff] my-4">Telusuri Kelas</NuxtLink>
+                        diikuti, dengan penjelasan yang jelas dan contoh kode yang relevan.
+                    </p>
+                    <NuxtLink to="#" class="bg-white p-2 rounded px-4 block w-fit text-[#6d4dff] my-4">Telusuri Kelas
+                    </NuxtLink>
                 </div>
             </section>
             <section id="class" class="">
@@ -52,7 +61,8 @@
                                 untuk membuat struktur dan konten halaman web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
+                            <NuxtLink href="/class/html-html.jpg"
+                                class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
                     <div
@@ -72,7 +82,8 @@
                                 mengatur tampilan dan tata letak elemen-elemen dalam halaman web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
+                            <NuxtLink href="/class/css-css.jpeg"
+                                class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
                     <div
@@ -92,7 +103,8 @@
                                 web interaktif dan dinamis.</p>
                         </div>
                         <div class="flex justify-start">
-                            <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
+                            <NuxtLink href="/class/javascript-javascript.jpg"
+                                class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
                     <div
@@ -111,7 +123,8 @@
                                 pengembangan web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
+                            <NuxtLink href="/class/php-php.jpg"
+                                class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
                 </div>

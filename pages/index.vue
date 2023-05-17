@@ -3,13 +3,21 @@
         <NuxtLayout :name="layouts.header">
             <nav class="font-bold flex items-center justify-between w-10/12">
                 <div class="">
-                    <h2><NuxtLink to="/">Coster</NuxtLink></h2>
+                    <h2>
+                        <NuxtLink to="/">Coster</NuxtLink>
+                    </h2>
                 </div>
                 <ul class="flex items-center justify-evenly gap-8">
-                    <li><NuxtLink to="/">Beranda</NuxtLink></li>
-                    <li><NuxtLink to="/about">Tentang Kami</NuxtLink></li>
-                    <li><NuxtLink to="/class">Tutorial</NuxtLink></li>
-                    <li><a href="#"><i class="fa-brands fa-codepen"></i> Codepen</a></li>
+                    <li>
+                        <NuxtLink to="/">Beranda</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/about">Tentang Kami</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/class/list">Kelas</NuxtLink>
+                    </li>
+                    <li><a href="https://codepen.io/Raka_ramadhan" target="_blank"><i class="fa-brands fa-codepen"></i> Codepen</a></li>
                 </ul>
             </nav>
         </NuxtLayout>
@@ -20,8 +28,8 @@
                     <p class="text-base leading-relaxed my-4">Gali potensi kreativitasmu dengan koding, temukan inspirasi
                         untuk ide-ide baru, dan temukan solusi inovatif melalui tutorial koding yang menyenangkan.</p>
                     <div class="flex items-center gap-2">
-                        <a href="#" class="bg-[#4e29f5] text-white p-2 rounded px-4 block w-fit">Mulai Belajar</a>
-                        <a href="#" class="bg-black/[0.1] text-black p-2 rounded px-4 block w-fit">Telusuri Kelas</a>
+                        <NuxtLink href="#class" class="bg-[#4e29f5] text-white p-2 rounded px-4 block w-fit">Mulai Belajar</NuxtLink>
+                        <NuxtLink href="/class/list" class="border-2 border-[#4e29f5] text-black p-2 rounded px-4 block w-fit">Telusuri Kelas</NuxtLink>
                     </div>
                 </div>
                 <img src="https://img1.wsimg.com/cdn/Image/All/All/1/en-US/dd0b8505-0e30-427f-8984-3a1bdf50fa06/gd-websitebuilder-marquee-mobile2x.jpg"
@@ -47,7 +55,8 @@
                                 untuk membuat struktur dan konten halaman web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
+                            <NuxtLink href="/class/html-html.jpg"
+                                class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
                     <div
@@ -67,7 +76,8 @@
                                 mengatur tampilan dan tata letak elemen-elemen dalam halaman web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
+                            <NuxtLink href="/class/css-css.jpeg"
+                                class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
                     <div
@@ -87,7 +97,8 @@
                                 web interaktif dan dinamis.</p>
                         </div>
                         <div class="flex justify-start">
-                            <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
+                            <NuxtLink href="/class/javascript-javascript.jpg"
+                                class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
                     <div
@@ -106,7 +117,8 @@
                                 pengembangan web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <a href="#" class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</a>
+                            <NuxtLink href="/class/php-php.jpg"
+                                class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -114,7 +126,7 @@
             <section id="class" class="">
                 <h3 class="font-bold text-2xl py-8">Tutorial</h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial" date="12 Januari 2002">
+                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial-1" date="12 Januari 2002">
                     </Card>
                     <Card title="Reponsive Design" image="tutorial-2.png" link="#" date="20 Januari 2002"></Card>
                     <Card title="Designing A Website" image="tutorial-3.jpg" link="#" date="14 Februari 2002"></Card>

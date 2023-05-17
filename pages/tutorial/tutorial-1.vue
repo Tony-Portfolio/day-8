@@ -1,31 +1,47 @@
 <template>
-    <div class = "bg-black text-white">
-    <NuxtLayout :name="layouts.header">
-            <nav class="flex p-4 items-center justify-between w-10/12 block m-auto">
-                <h3 class="font-bold"><NuxtLink to="/">Raka</NuxtLink></h3>
-                <p><a href="#https://codepen.io/Raka_ramadhan/pen/gOGRRaw" target="_blank"><i class="fa-brands fa-codepen"></i> Codepen</a></p>
+    <div class="bg-[#e2e9f4] w-full scroll-smooth">
+        <NuxtLayout :name="layouts.header">
+            <nav class="font-bold flex items-center justify-between w-10/12">
+                <div class="">
+                    <h2>
+                        <NuxtLink to="/">Coster</NuxtLink>
+                    </h2>
+                </div>
+                <ul class="flex items-center justify-evenly gap-8">
+                    <li>
+                        <NuxtLink to="/">Beranda</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/about">Tentang Kami</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/class/list">Kelas</NuxtLink>
+                    </li>
+                    <li><a href="#"><i class="fa-brands fa-codepen"></i> Codepen</a></li>
+                </ul>
             </nav>
         </NuxtLayout>
-    <main class="w-10/12 m-auto block p-4">
-        <div class="flex items-center justify-center gap-8 w-full mb-24">
-            <div class="text-center flex items-center justify-center flex-col">
-                <h3 class="text-4xl leading-relaxed">Cara Membuat Web Portfolio Simpel</h3>
-                <p class="text-white/[0.8]">Pada tutorial kali ini, kita akan mempelajari bagaimana cara membuat sebuah
-                    landing page dengan
-                    desain unik dan keren.</p>
-                <div class="flex gap-2">
-                    <a href="#1" class="block w-fit bg-sky-500 p-2 rounded my-2 px-4">Mulai Membuat</a>
-                    <NuxtLink to="/" class="block w-fit bg-sky-500 p-2 rounded my-2 px-4">Kembali ke halaman utama</NuxtLink>
+        <main class="w-10/12 m-auto block p-4">
+            <div class="flex items-center justify-center gap-8 w-full mb-24">
+                <div class="text-center flex items-center justify-center flex-col">
+                    <h3 class="text-4xl leading-relaxed">Cara Membuat Web Portfolio Simpel</h3>
+                    <p class="text-black/[0.8]">Pada tutorial kali ini, kita akan mempelajari bagaimana cara membuat sebuah
+                        landing page dengan
+                        desain unik dan keren.</p>
+                    <div class="flex gap-2">
+                        <a href="#1" class="block w-fit bg-sky-500 p-2 rounded my-2 px-4 text-white">Mulai Membuat</a>
+                        <NuxtLink to="/" class="block w-fit bg-sky-500 p-2 rounded my-2 px-4 text-white">Kembali ke halaman utama
+                        </NuxtLink>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="flex items-center justify-start gap-2">
-            <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">1.</h3>
-            <p class="" id="1">Buatlah File Html dengan nama index.html,
-                kemudian ketik html:5 dan tekan enter, dan tampilan pada visual studio akan seperti ini</p>
-        </div>
-        <div class="flex">
-            <pre class="w-full">
+            <div class="flex items-center justify-start gap-2">
+                <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">1.</h3>
+                <p class="" id="1">Buatlah File Html dengan nama index.html,
+                    kemudian ketik html:5 dan tekan enter, dan tampilan pada visual studio akan seperti ini</p>
+            </div>
+            <div class="flex">
+                <pre class="w-full">
                 <code class = "">&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;
@@ -40,17 +56,17 @@
 &lt;/html&gt;
             </code>
         </pre>
-        </div>
-        <div class="flex items-center justify-start gap-2">
-            <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">2</h3>
-            <p class="">Tambahkan Tag <strong>'&lt;div&gt;'</strong> dengan id 'portfolio-container' dalam body dan
-                tambahkan tag <strong>&lt;img&gt;</strong> didalam div tersebut set attribute <strong>src</strong>
-                sesuai
-                dengan foto profil. Kemudian dibawah tag <strong>img</strong> Tambahkan Keterangan Nama, Informasi Diri,
-                dan penjelasan yang menarik</p>
-        </div>
-        <div class="flex">
-            <pre class="w-full">
+            </div>
+            <div class="flex items-center justify-start gap-2">
+                <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">2</h3>
+                <p class="">Tambahkan Tag <strong>'&lt;div&gt;'</strong> dengan id 'portfolio-container' dalam body dan
+                    tambahkan tag <strong>&lt;img&gt;</strong> didalam div tersebut set attribute <strong>src</strong>
+                    sesuai
+                    dengan foto profil. Kemudian dibawah tag <strong>img</strong> Tambahkan Keterangan Nama, Informasi Diri,
+                    dan penjelasan yang menarik</p>
+            </div>
+            <div class="flex">
+                <pre class="w-full">
                 <code class = "">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
                     
@@ -74,17 +90,17 @@
 &lt;/html&gt;
             </code>
         </pre>
-        </div>
-        <div class="flex items-center justify-start gap-2">
-            <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">3</h3>
-            <p class="">Tambahkan <strong>'&lt;section&gt;'</strong> skill dibawah <strong>'&lt;div id =
-                    'portfolio-container'&gt;'</strong>, kemudian beri judul <strong>"Skills"</strong> menggunakan tag
-                '&lt;h3&gt;' tambahkan tag <strong>'&lt;ul&gt;'</strong> dalam section
-                tersebut dan tambahkan elemen <strong>'&lt;li&gt;'</strong> pada ul dan isi tag ul dengan skills seperti
-                html,css,dan javascript</p>
-        </div>
-        <div class="flex">
-            <pre class="w-full">
+            </div>
+            <div class="flex items-center justify-start gap-2">
+                <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">3</h3>
+                <p class="">Tambahkan <strong>'&lt;section&gt;'</strong> skill dibawah <strong>'&lt;div id =
+                        'portfolio-container'&gt;'</strong>, kemudian beri judul <strong>"Skills"</strong> menggunakan tag
+                    '&lt;h3&gt;' tambahkan tag <strong>'&lt;ul&gt;'</strong> dalam section
+                    tersebut dan tambahkan elemen <strong>'&lt;li&gt;'</strong> pada ul dan isi tag ul dengan skills seperti
+                    html,css,dan javascript</p>
+            </div>
+            <div class="flex">
+                <pre class="w-full">
                 <code class = "">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 
@@ -116,17 +132,17 @@
 &lt;/html&gt;
             </code>
         </pre>
-        </div>
-        <div class="flex items-center justify-start gap-2">
-            <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">4</h3>
-            <p class="">Tambahkan <strong>'&lt;section&gt;'</strong> baru. tambahkan tag <strong>'&lt;h3&gt;'</strong>
-                Dengan Judul "Proyek". Tambahkan <strong>'&lt;Ul&gt;'</strong> dibawah judul, dan tambahkan tag
-                <strong>'&lt;li&gt;'</strong> dan isi tag <strong>'&lt;li&gt;'</strong> dengan "Judul Proyek",
-                "Deskripsi Proyek", dan kapan proyek tersebut dibuat.
-            </p>
-        </div>
-        <div class="flex">
-            <pre class="w-full">
+            </div>
+            <div class="flex items-center justify-start gap-2">
+                <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">4</h3>
+                <p class="">Tambahkan <strong>'&lt;section&gt;'</strong> baru. tambahkan tag <strong>'&lt;h3&gt;'</strong>
+                    Dengan Judul "Proyek". Tambahkan <strong>'&lt;Ul&gt;'</strong> dibawah judul, dan tambahkan tag
+                    <strong>'&lt;li&gt;'</strong> dan isi tag <strong>'&lt;li&gt;'</strong> dengan "Judul Proyek",
+                    "Deskripsi Proyek", dan kapan proyek tersebut dibuat.
+                </p>
+            </div>
+            <div class="flex">
+                <pre class="w-full">
                 <code class = "">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 
@@ -175,14 +191,14 @@
 &lt;/html&gt;
             </code>
         </pre>
-        </div>
-        <div class="flex items-center justify-start gap-2">
-            <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">5</h3>
-            <p class="">Tambahkan tag <strong>'&lt;style&gt;'</strong> dalam tag <strong>'&lt;head&gt;'</strong> dan
-                tambahkan style sesuai keinginan atau tambahkan style dibawah ini
-            </p>
-        </div>
-        <pre class="w-full">
+            </div>
+            <div class="flex items-center justify-start gap-2">
+                <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">5</h3>
+                <p class="">Tambahkan tag <strong>'&lt;style&gt;'</strong> dalam tag <strong>'&lt;head&gt;'</strong> dan
+                    tambahkan style sesuai keinginan atau tambahkan style dibawah ini
+                </p>
+            </div>
+            <pre class="w-full">
             <code class = "">&lt;style&gt;
                 body {
                     font-family: Arial, sans-serif;
@@ -250,12 +266,12 @@
 &lt;/style&gt;
         </code>
     </pre>
-        <div class="flex items-center justify-start gap-2">
-            <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">6</h3>
-            <p class="">Maka hasil akhir dari kodingan kita adalah sebagai berikut
-            </p>
-        </div>
-        <pre class="w-full">
+            <div class="flex items-center justify-start gap-2">
+                <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">6</h3>
+                <p class="">Maka hasil akhir dari kodingan kita adalah sebagai berikut
+                </p>
+            </div>
+            <pre class="w-full">
             <code class = "">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -365,13 +381,13 @@
 &lt;/html&gt;
         </code>
     </pre>
-        <div class="flex items-center justify-start gap-2">
-            <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">7</h3>
-            <p class="">Setelah tag <strong>&lt;/style&gt;</strong> ditambahkan pada <strong>&lt;head&gt;</strong> maka
-                tampilan website akan menjadi seperti berikut.
-            </p>
-        </div>
-        <iframe class="w-full h-[1000px] mt-8" srcdoc='
+            <div class="flex items-center justify-start gap-2">
+                <h3 class="titles bg-white text-black text-xl p-2 py-1 w-fit rounded">7</h3>
+                <p class="">Setelah tag <strong>&lt;/style&gt;</strong> ditambahkan pada <strong>&lt;head&gt;</strong> maka
+                    tampilan website akan menjadi seperti berikut.
+                </p>
+            </div>
+            <iframe class="w-full h-[1000px] mt-8" srcdoc='
         &lt;!DOCTYPE html&gt;
         &lt;html&gt;
         
@@ -479,14 +495,14 @@
         
         &lt;/html&gt;
 '></iframe>
-    </main>
-    <NuxtLayout :name="layouts.footer">
-        <p><a href="https://bit.ly/raka-rmdn-portfolio" target="_blank">All right reserved @Raka_Ramadhan</a></p>
-    </NuxtLayout>
-</div>
+        </main>
+        <NuxtLayout :name="layouts.footer">
+            <p><a href="https://bit.ly/raka-rmdn-portfolio" target="_blank">All right reserved @Raka_Ramadhan</a></p>
+        </NuxtLayout>
+    </div>
 </template>
 <script>
-export default  {
+export default {
     data() {
         return {
             layouts: {
