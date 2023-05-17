@@ -1,25 +1,7 @@
 <template>
     <div class="bg-[#e2e9f4] w-full scroll-smooth">
         <NuxtLayout :name="layouts.header">
-            <nav class="font-bold flex items-center justify-between w-10/12">
-                <div class="">
-                    <h2>
-                        <NuxtLink to="/">Coster</NuxtLink>
-                    </h2>
-                </div>
-                <ul class="flex items-center justify-evenly gap-8">
-                    <li>
-                        <NuxtLink to="/">Beranda</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/about">Tentang Kami</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/class/list">Kelas</NuxtLink>
-                    </li>
-                    <li><a href="#"><i class="fa-brands fa-codepen"></i> Codepen</a></li>
-                </ul>
-            </nav>
+            
         </NuxtLayout>
         <main class="w-10/12 m-auto block p-4">
             <div class="flex items-center justify-center gap-8 w-full mb-24">

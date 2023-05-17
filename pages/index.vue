@@ -1,26 +1,7 @@
 <template>
     <div class="bg-[#e2e9f4] w-full">
         <NuxtLayout :name="layouts.header">
-            <nav class="font-bold flex items-center justify-between w-10/12">
-                <div class="">
-                    <h2>
-                        <NuxtLink to="/">Coster</NuxtLink>
-                    </h2>
-                </div>
-                <ul class="flex items-center justify-evenly gap-8">
-                    <li>
-                        <NuxtLink to="/">Beranda</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/about">Tentang Kami</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/class/list">Kelas</NuxtLink>
-                    </li>
-                    <li><a href="https://codepen.io/Raka_ramadhan" target="_blank"><i class="fa-brands fa-codepen"></i>
-                            Codepen</a></li>
-                </ul>
-            </nav>
+            
         </NuxtLayout>
         <main class="w-10/12 mx-auto my-8">
             <section id="hero" class="flex justify-between gap-8 flex-col lg:flex-row">
@@ -130,7 +111,7 @@
             <section id="class" class="">
                 <h3 class="font-bold text-2xl py-8">Tutorial</h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial-1" date="12 Januari 2002">
+                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial/tutorial-1" date="12 Januari 2002">
                     </Card>
                     <Card title="Reponsive Design" image="tutorial-2.png" link="#" date="20 Januari 2002"></Card>
                     <Card title="Designing A Website" image="tutorial-3.jpg" link="#" date="14 Februari 2002"></Card>

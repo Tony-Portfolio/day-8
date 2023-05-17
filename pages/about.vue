@@ -1,26 +1,7 @@
 <template>
     <div class="bg-[#e2e9f4] w-full">
         <NuxtLayout :name="layouts.header">
-            <nav class="font-bold flex items-center justify-between w-10/12">
-                <div class="">
-                    <h2>
-                        <NuxtLink to="/">Coster</NuxtLink>
-                    </h2>
-                </div>
-                <ul class="flex items-center justify-evenly gap-8">
-                    <li>
-                        <NuxtLink to="/">Beranda</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/about">Tentang Kami</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/class/list">Kelas</NuxtLink>
-                    </li>
-                    <li><a href="https://codepen.io/Raka_ramadhan" target="_blank"><i class="fa-brands fa-codepen"></i>
-                            Codepen</a></li>
-                </ul>
-            </nav>
+            
         </NuxtLayout>
         <main class="w-10/12 mx-auto my-4">
             <section id="about" class="w-full h-fit">
