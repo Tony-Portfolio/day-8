@@ -19,14 +19,15 @@
                 <li><a href="https://codepen.io/Raka_ramadhan" target="_blank"><i class="fa-brands fa-codepen"></i>
                         Codepen</a></li>
             </ul>
-            <p @click.stop="showNav = true" class="block md:hidden w-fit"><i class="fa-solid fa-bars"></i></p>
+            <p @click.stop="showNav = true" class="block md:hidden w-fit"><img src="/icon/bar.png" alt="bars" class = "w-[20px]">
+            </p>
         </nav>
         <!-- <slot /> -->
 
     </header>
     <nav id="responsive"
-        class="bg-[#4e29f5] text-white overflow-hidden fixed h-screen w-[250px] right-[-250px] z-[200] top-0" style = "transition: right 0.5s;"
-        :class="{ 'show': showNav }" @click="showNav = false">
+        class="bg-[#4e29f5] text-white overflow-hidden fixed h-[100%] w-[250px] right-[-250px] z-[200] top-0"
+        style="transition: right 0.5s;" :class="{ 'show': showNav }" @click="showNav = false">
         <ul class="flex items-start justify-between gap-2 flex-col p-4 h-full">
             <div class="w-full">
                 <p class="text-right p-2 text-xl" @click="showNav">X</p>
