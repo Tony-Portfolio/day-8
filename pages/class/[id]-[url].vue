@@ -55,7 +55,6 @@
             </section>
         </main>
         <NuxtLayout :name="layouts.footer">
-            <p><a href="https://bit.ly/raka-rmdn-portfolio" target="_blank">All right reserved @Raka_Ramadhan</a></p>
         </NuxtLayout>
     </div>
 </template>
