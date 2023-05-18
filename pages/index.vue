@@ -111,7 +111,7 @@
             <section id="class" class="">
                 <h3 class="font-bold text-2xl py-8">Tutorial</h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial/tutorial-1" date="12 Januari 2002" lang1 = "HTML" lang2 = "CSS">
+                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="/tutorial/tutorial-1" date="12 Januari 2002" lang1 = "HTML" lang2 = "CSS">
                     </Card>
                     <Card title="Reponsive Desain" image="tutorial-2.png" link="#" date="20 Januari 2002" lang1 = "HTML" lang2 = "CSS"></Card>
                     <Card title="Mendesain sebuah website" image="tutorial-3.jpg" link="#" date="14 Februari 2002" lang1 = "HTML" lang2 = "CSS"></Card>

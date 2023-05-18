@@ -2,7 +2,7 @@
   <div
     class="bg-white p-4 shadow-lg rounded flex flex-row w-full h-full hover:shadow-2xl hover:bottom-[5px] bottom-0 transition duration-500 ease-in-out hover:shadow-[rgba(109,77,255,0.6)] relative gap-4"
     style="transition:bottom 0.5s, box-shadow 0.5s;">
-    <NuxtLink :to="'/' + link" class="flex w-full gap-4 flex-col">
+    <NuxtLink :to="'' + link" class="flex w-full gap-4 flex-col">
       <img :src="'/images/' + image" alt=""
         class="h-[250px] w-full md:w-[300px] xl:w-[400px] block object-cover object-top">
       <div class="flex-grow">

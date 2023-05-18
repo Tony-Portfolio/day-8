@@ -108,16 +108,16 @@
                     </div>
                 </div>
             </section>
-            <section id="class" class="">
+            <!-- <section id="class" class="">
                 <h2 class="font-bold text-4xl my-6">Tutorial</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="tutorial/tutorial-1" date="12 Januari 2002" lang1 = "HTML" lang2 = "CSS">
+                    <Card title="Web Portfolio Sederhana" image="tutorial-1.png" link="/tutorial/tutorial-1" date="12 Januari 2002" lang1 = "HTML" lang2 = "CSS">
                     </Card>
                     <Card title="Reponsive Desain" image="tutorial-2.png" link="#" date="20 Januari 2002" lang1 = "HTML" lang2 = "CSS"></Card>
                     <Card title="Mendesain sebuah website" image="tutorial-3.jpg" link="#" date="14 Februari 2002" lang1 = "HTML" lang2 = "CSS"></Card>
                     <Card title="Website interaktif" image="tutorial-4.jpg" link="#" date="28 Februari 2002" lang1 = "HTML" lang2 = "CSS" lang3="Javascript"></Card>
                 </div>
-            </section>
+            </section> -->
         </main>
         <NuxtLayout :name="layouts.footer">
         </NuxtLayout>
