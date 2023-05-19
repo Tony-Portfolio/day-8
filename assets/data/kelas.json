@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "img": "/images/html.jpg",
+    "materi": {
+      "materi_1": "Struktur dokumen HTML",
+      "materi_2": "HTML Tag, Element, Attribute & Comment",
+      "materi_3": "HTML Tag Untuk Menampilkan Teks",
+      "materi_4": "HTML Tag Untuk Multimedia",
+      "materi_5": "HTML Tag Untuk Tabel",
+      "materi_6": "HTML Tag Untuk Formulir",
+      "materi_7": "HTML Tag Untuk Membagi Layout Website"
+    }
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "img": "/images/css.jpeg",
+    "materi": {
+      "materi_1": "Perkenalan",
+      "materi_2": "Menyisipkan CSS di Dalam File HTML",
+      "materi_3": "CSS Syntax, CSS Selector, Pseudo-class, & Pseudo-element",
+      "materi_4": "CSS Box Model",
+      "materi_5": "CSS Display",
+      "materi_6": "CSS Position",
+      "materi_7": "Desain Website Responsif"
+    }
+  },
+  {
+    "id": 3,
+    "title": "JAVASCRIPT",
+    "img": "/images/javascript.jpg",
+    "materi": {
+      "materi_1": "Menyisipkan JavaScript di Dalam HTML",
+      "materi_2": "Variabel dan Tipe Data JavaScript",
+      "materi_3": "Operator JavaScript",
+      "materi_4": "Fungsi JavaScript",
+      "materi_5": "Objek JavaScript",
+      "materi_6": "Array JavaScript",
+      "materi_7": "Objek Math",
+      "materi_8": "JavaScript Conditional",
+      "materi_9": "JavaScript Loop",
+      "materi_10": "JavaScript HTML DOM",
+      "materi_11": "JavaScript ES6"
+    }
+  },
+  {
+    "id": 4,
+    "title": "PHP",
+    "img": "/images/php.jpg"
+  }
+]

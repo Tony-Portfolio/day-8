@@ -8,7 +8,7 @@
                 <h2 class="font-bold text-4xl my-6">Kelas</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
                     <div class="bg-white shadow-lg rounded">
-                        <NuxtLink to="/class/html-html.jpg" class="flex flex-col justify-between h-full">
+                        <NuxtLink to="/class/1" class="flex flex-col justify-between h-full">
                             <div class="">
                                 <div class="">
                                     <img src="/images/html.jpg" alt="" class="w-full h-[250px] object-cover object-top">
@@ -34,7 +34,7 @@
                         </NuxtLink>
                     </div>
                     <div class="bg-white shadow-lg rounded">
-                        <NuxtLink to="/class/css-css.jpeg" class="flex flex-col justify-between h-full">
+                        <NuxtLink to="/class/2" class="flex flex-col justify-between h-full">
                             <div class="">
                                 <div class="">
                                     <img src="/images/css.jpeg" alt="" class="w-full h-[250px] object-cover object-top">
@@ -60,7 +60,7 @@
                         </NuxtLink>
                     </div>
                     <div class="bg-white shadow-lg rounded">
-                        <NuxtLink to="/class/javascript-javascript.jpg" class="flex flex-col justify-between h-full">
+                        <NuxtLink to="/class/3" class="flex flex-col justify-between h-full">
                             <div class="">
                                 <div class="">
                                     <img src="/images/javascript.jpg" alt=""
@@ -83,7 +83,7 @@
                         </NuxtLink>
                     </div>
                     <div class="bg-white shadow-lg rounded">
-                        <NuxtLink to="/class/php-php.jpg" class="flex flex-col justify-between h-full">
+                        <NuxtLink to="/class/4" class="flex flex-col justify-between h-full">
                             <div class="">
                                 <div class="">
                                     <img src="/images/php.jpg" alt="" class="w-full h-[250px] object-cover object-top">

@@ -16,9 +16,6 @@
               <li>
                 <NuxtLink href="/class/css-css.jpeg" class="bg-[#542eff] p-2 py-1 rounded text-white text-center text-sm">{{ lang2 }}</NuxtLink>
               </li>
-              <li v-if="lang3 !== '' && lang3">
-                <NuxtLink href="/class/javascript-javascript.jpg" class="bg-[#542eff] p-2 py-1 rounded text-white text-center text-sm">{{ lang3 }}</NuxtLink>
-              </li>
             </ul>
           </div>
         </div>
@@ -38,7 +35,6 @@ const props = defineProps({
   date: String,
   lang1: String,
   lang2: String,
-  lang3: String,
 })
 </script>
   
