@@ -44,7 +44,7 @@
                                 untuk membuat struktur dan konten halaman web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <NuxtLink href="/class/html-html.jpg"
+                            <NuxtLink href="/class/1"
                                 class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                                 mengatur tampilan dan tata letak elemen-elemen dalam halaman web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <NuxtLink href="/class/css-css.jpeg"
+                            <NuxtLink href="/class/2"
                                 class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                                 web interaktif dan dinamis.</p>
                         </div>
                         <div class="flex justify-start">
-                            <NuxtLink href="/class/javascript-javascript.jpg"
+                            <NuxtLink href="/class/3"
                                 class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                                 pengembangan web.</p>
                         </div>
                         <div class="flex justify-start">
-                            <NuxtLink href="/class/php-php.jpg"
+                            <NuxtLink href="/class/4"
                                 class="bg-[#6d4dff] text-white p-2 rounded px-4 block w-fit">Mulai Kelas</NuxtLink>
                         </div>
                     </div>
