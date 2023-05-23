@@ -15,7 +15,8 @@
                     </div>
                     <div class="ml-2 mr-4">
                         <h3 class="font-bold text-3xl">{{ produkData.nama }}</h3>
-                        <p class="my-2 text-sm my-4">{{ produkData.deskripsi }}</p>
+                        <p class="my-2 text-base my-4">{{ produkData.deskripsi }}</p>
+                        <p class="my-2 text-base my-4">Rating : {{ produkData.rating }}</p>
                         <!-- <p class="text-sm flex gap-2"><a href="search.php?brand=<?= $row['brand_name'] ?>" class="text-[#F15A25]"><?= $row['brand_name'] ?></a>|<a href="search.php?category=<?= $row['product_type'] ?>" class="text-[#F15A25]"><?= $row['product_type'] ?></a></p> -->
                         <div class="flex items-center gap-4">
                             <p class="text-xl line-through" v-if="produkData.diskon != 0">Rp. {{
