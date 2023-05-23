@@ -23,7 +23,8 @@
                         <h3 class="font-bold text-4xl uppercase">{{ kelasData.title }}</h3>
                         <section class=" bg-white p-4 rounded w-full shadow-md">
                             <h4 class="font-bold text-xl mb-4">Tentang Kelas</h4>
-                            <p>Di Kelas / Tutorial ini kita akan belajar bagaimana cara menggunakan {{ kelasData.title }}.
+                            <p>Di Kelas / Tutorial ini kita akan belajar bagaimana cara menggunakan {{ kelasData.title }}. <br><br>
+                                {{ kelasData.description }}
                             </p>
                         </section>
                         <section class="bg-white p-4 rounded w-full shadow-md">

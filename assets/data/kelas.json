@@ -3,6 +3,7 @@
     "id": 1,
     "title": "HTML",
     "img": "/images/html.jpg",
+    "description":"HTML (HyperText Markup Language): Mari kita mulai dengan HTML, bahasa yang menjadi 'tulang punggung' dari halaman web yang Anda lihat. HTML memungkinkan kita untuk membuat dan mengorganisir konten yang menarik, seperti teks, gambar, tautan, dan banyak lagi. Dengan menggunakan HTML, kita dapat membentuk struktur halaman web dengan mudah.",
     "materi": {
       "materi_1": "Struktur dokumen HTML",
       "materi_2": "HTML Tag, Element, Attribute & Comment",
@@ -17,6 +18,7 @@
     "id": 2,
     "title": "CSS",
     "img": "/images/css.jpeg",
+    "description":"CSS (Cascading Style Sheets): Sekarang, mari kita beri sentuhan indah pada halaman web kita dengan CSS. Dengan CSS, kita bisa membuat tampilan dan gaya yang memukau. Bagaimana rasanya bisa mengubah warna, ukuran, dan tata letak elemen-elemen halaman hanya dengan beberapa baris kode? Dengan CSS, kita dapat menciptakan halaman web yang terlihat profesional, elegan, dan sepenuhnya sesuai dengan kreativitas kita.",
     "materi": {
       "materi_1": "Perkenalan",
       "materi_2": "Menyisipkan CSS di Dalam File HTML",
@@ -31,6 +33,7 @@
     "id": 3,
     "title": "JAVASCRIPT",
     "img": "/images/javascript.jpg",
+    "description": "JavaScript: Dengan JavaScript, kita bisa membuat halaman web menjadi hidup dan berinteraksi dengan pengguna. Kita dapat membuat animasi yang memukau, tombol-tombol yang bergerak, dan formulir yang responsif.",
     "materi": {
       "materi_1": "Menyisipkan JavaScript di Dalam HTML",
       "materi_2": "Variabel dan Tipe Data JavaScript",
@@ -48,6 +51,15 @@
   {
     "id": 4,
     "title": "PHP",
-    "img": "/images/php.jpg"
+    "img": "/images/php.jpg",
+    "description":"PHP (Hypertext Preprocessor): PHP membantu kita mengolah data di sisi server dan menciptakan aplikasi web yang dinamis. Dengan PHP, kita dapat berinteraksi dengan database, mengirim formulir, mengelola pengguna, dan melakukan banyak tugas lainnya yang membuat situs web kita menjadi lebih fungsional dan efisien.",
+    "materi": {
+      "materi_1": "Php Basic Sintaks",
+      "materi_2": "Php Variabel",
+      "materi_3": "Php Operator",
+      "materi_4": "Php Array",
+      "materi_5": "Php Objek",
+      "materi_6": "Php Function"
+    }
   }
 ]
