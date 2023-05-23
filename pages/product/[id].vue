@@ -7,7 +7,7 @@
             <NuxtLink to="/product/list" class="my-8 text-[#6d4dff] block w-fit">
                 Kembali ke Produk</NuxtLink>
 
-            <section class="md:my-10 w-full bg-white p-8">
+            <section class="md:my-10 w-full bg-white p-4 lg:p-8">
                 <div class="grid gap-8 md:gap-2 lg:gap-10 w-full grid-cols-1 lg:grid-cols-[300px_1fr]"
                     style="place-content:center;">
                     <div class="">
@@ -42,7 +42,7 @@
                                         class="text-xl font-bold text-[#F15A25] cursor-pointer w-[40px] text-center bg-slate-800/[0.015] p-2 rounded">
                                         -</p>
                                     <input type="number" min="1" max="<?= $row['stock'] ?>" value=1
-                                        class="text-center w-[200px] border-2 border-black/[0.1] rounded p-2">
+                                        class="text-center w-full lg:w-[200px] border-2 border-black/[0.1] rounded p-2">
                                     <p
                                         class="text-xl font-bold text-[#F15A25] cursor-pointer w-[40px] text-center bg-slate-800/[0.015] p-2 rounded">
                                         +</p>
