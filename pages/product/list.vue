@@ -17,11 +17,16 @@
                                     <div class="">
                                         <h3 class="text-2xl flex items-center font-bold">{{ item.nama }}</h3>
                                     </div>
-                                    <p class="text-base line-through" v-if="item.diskon != 0">Rp. {{
-                                        item.harga
-                                    }}</p>
-                                    <p class="text-base" v-if="item.diskon != 0">Diskon: {{ item.diskon }}%</p>
+                                    <div class="flex items-center gap-2" v-if="item.diskon != 0">
+                                        <p class="text-base line-through">Rp. {{
+                                            item.harga
+                                        }}</p>
+                                        <p>|</p>
+                                        <p class="text-sm bg-green-500 px-1 py-[3px] rounded text-white w-fit"
+                                            v-if="item.diskon != 0">Diskon: {{ item.diskon }}%</p>
+                                    </div>
                                     <p class="text-lg my-2">Rp. {{ discountedPrice(item) }}</p>
+                                    <p class="text-sm">Rating {{ item.rating }} | stok {{ item.stok }}</p>
                                 </div>
                             </div>
                             <div class="">

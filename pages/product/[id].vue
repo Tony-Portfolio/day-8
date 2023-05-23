@@ -8,22 +8,23 @@
                 Kembali ke Produk</NuxtLink>
 
             <section class="md:my-10 w-full bg-white p-8">
-                <div class="grid gap-8 md:gap-2 lg:gap-10 w-full grid-cols-1 lg:grid-cols-[300px_1fr]" style="place-content:center;">
+                <div class="grid gap-8 md:gap-2 lg:gap-10 w-full grid-cols-1 lg:grid-cols-[300px_1fr]"
+                    style="place-content:center;">
                     <div class="">
-                        <img :src="produkData.image" alt="" class="w-fit block m-auto md:w-fit lg:w-full h-[320px] object-cover"
-                            id="img-variant-show">
+                        <img :src="produkData.image" alt=""
+                            class="w-fit block m-auto md:w-fit lg:w-full h-[320px] object-cover" id="img-variant-show">
                     </div>
                     <div class="ml-2 mr-4">
                         <h3 class="font-bold text-3xl">{{ produkData.nama }}</h3>
                         <p class="my-2 text-base my-4">{{ produkData.deskripsi }}</p>
                         <p class="my-2 text-base my-4">Rating : {{ produkData.rating }}</p>
                         <!-- <p class="text-sm flex gap-2"><a href="search.php?brand=<?= $row['brand_name'] ?>" class="text-[#F15A25]"><?= $row['brand_name'] ?></a>|<a href="search.php?category=<?= $row['product_type'] ?>" class="text-[#F15A25]"><?= $row['product_type'] ?></a></p> -->
-                        <div class="flex items-center gap-4">
-                            <p class="text-xl line-through" v-if="produkData.diskon != 0">Rp. {{
+                        <div class="flex items-center gap-4" v-if="produkData.diskon != 0">
+                            <p class="text-xl line-through">Rp. {{
                                 produkData.harga
                             }}</p>
-                            <p class="text-base" v-if="produkData.diskon === 0"></p>
-                            <p class="text-base" v-else>| Diskon: {{ produkData.diskon }}%</p>
+                            <p class="text-base">|</p>
+                            <p class="text-base bg-green-500 px-1 py-[3px] rounded text-white w-fit">Diskon: {{ produkData.diskon }}%</p>
                         </div>
                         <p class="text-2xl my-8"><span class="text-lg">Rp. </span>{{ discountedPrice.toLocaleString() }}</p>
                         <p class="text-sm mt-2">Stock : {{ produkData.stok }}</p>
@@ -101,10 +102,14 @@
                                         <div class="">
                                             <h3 class="text-2xl flex items-center font-bold">{{ item.nama }}</h3>
                                         </div>
-                                        <p class="text-base line-through" v-if="item.diskon != 0">Rp. {{
-                                            item.harga
-                                        }}</p>
-                                        <p class="text-base" v-if="item.diskon != 0">Diskon: {{ item.diskon }}%</p>
+                                        <div class="flex items-center gap-2" v-if="item.diskon != 0">
+                                            <p class="text-base line-through">Rp. {{
+                                                item.harga
+                                            }}</p>
+                                            <p>|</p>
+                                            <p class="text-sm bg-green-500 px-1 py-[3px] rounded text-white w-fit"
+                                                v-if="item.diskon != 0">Diskon: {{ item.diskon }}%</p>
+                                        </div>
                                         <p class="text-lg my-2">Rp. {{ discountedPrices(item) }}</p>
                                     </div>
                                 </div>
